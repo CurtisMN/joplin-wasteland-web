@@ -10,19 +10,6 @@ class Rules extends React.Component {
     this.state = {selectedOption: null};
   }
 
-  newActiveTab(tabName) {
-    this.setState(state => {
-      state.selectedOption = tabName;
-      return state;
-    });
-  }
-  deactivateTab() {
-    this.setState(state => {
-      state.activeSection = '';
-      return state;
-    });
-  }
-
   newActiveSection(newSectionName) {
     this.setState(state => {
       state.activeSection = newSectionName;

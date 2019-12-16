@@ -38,6 +38,7 @@ class Home extends React.Component {
             Rules of Engangement
           </p>
         </Link>
+        <Link href="/photos">
         <p
           onMouseEnter={() => this.newActiveTab('photos')}
           onMouseLeave={() => this.deactivateTab()}
@@ -48,6 +49,7 @@ class Home extends React.Component {
           }>
           Photos of Wata Pa
         </p>
+        </Link>
 
         <p
           style={{
